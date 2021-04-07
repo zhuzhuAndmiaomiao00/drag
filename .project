@@ -25,6 +25,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1617355380848</id>
 			<name></name>
 			<type>26</type>
@@ -35,6 +36,9 @@
 		</filter>
 		<filter>
 			<id>1617774289573</id>
+=======
+			<id>1617345312591</id>
+>>>>>>> origin/master
 			<name></name>
 			<type>26</type>
 			<matcher>
