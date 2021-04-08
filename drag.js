@@ -7,7 +7,12 @@ function drag(id){
 		dixY=ev.pageY-obj.offsetTop;
 		document.onmousemove=function(ev){
 			obj.style.left=ev.pageX-disX+"px";
-			obj.style.top=ev.pageX-disY+"px";
+			obj.style.top=ev.pageY-disY+"px";
+		};
+		document.onmouseup=function(){
+			document.onmousemove=null;
+			document.onmouseup=null;
 		}
 	}
+	return false;
 }
